@@ -1,0 +1,15 @@
+table {
+    margin:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 720px;
+    height: auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+}
+#rowHead, #colHead, #bothHead {
+    background-color: #d0d0d0;
+}
