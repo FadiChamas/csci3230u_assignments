@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="utf-8">
+        <title>Sudoku</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/sudoku.css"> 
+        <script src = "./scripts/sudoku.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="images/logo.gif" alt="" width="50" height="35" class="d-inline-block align-text-center">Sudoku Centre
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link">Play Game</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="high_scores.html">High Scores</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+        <table id="board" class="board">
+        </table>
+
+        <table class = "picker">
+            <tr class = "picker-row">
+                <td id = "btnOne" class = "picker-cell">1</td>
+                <td id = "btnTwo" class = "picker-cell">2</td>
+                <td id = "btnThree" class = "picker-cell">3</td>
+                <td id = "btnFour" class = "picker-cell">4</td>
+                <td id = "btnFive" class = "picker-cell">5</td>
+                <td id = "btnSix" class = "picker-cell">6</td>
+                <td id = "btnSeven" class = "picker-cell">7</td>
+                <td id = "btnEight" class = "picker-cell">8</td>
+                <td id = "btnNine" class = "picker-cell"> 9</td>
+                <td id = "btnUndo" class = "picker-cell"><img src="images/undo.png" width="15"   ></td>
+            </tr>
+        </table>
+    </body>
+</html>

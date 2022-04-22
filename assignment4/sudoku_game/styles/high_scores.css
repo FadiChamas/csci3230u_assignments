@@ -1,0 +1,23 @@
+.table {
+    text-align: center;
+}
+.table .th {
+    border-bottom: 1px;
+}
+.containerization {
+    max-width: 15%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.navbar-brand > img {
+    margin-right: 2rem;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-item, .navbar-brand {
+    font-size: 16px;
+}
